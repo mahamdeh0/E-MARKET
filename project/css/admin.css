@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+
+
+}
+div.c{
+    background-image: url("/image/admin (1) (1).png");
+
+}
+
+div.a{
+    display:flex;
+    text-align:center;
+    color: white;
+}
+
+div.a1{
+    width:400px;
+    height:300px;
+    background-image: linear-gradient(10deg,black,#45505b) ;
+    margin-left: 80px;
+    border-radius:120px;
+    border: double 11px black;
+    box-shadow: #7b7e81 10px 10px 10px;
+    color: white;
+}

@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+
+
+}
+
+
+div.a{
+    display:flex;
+    text-align:center;
+}
+
+div.a1{
+    width:400px;
+    height:300px;
+    background-image: linear-gradient(10deg,black,#3c97bf) ;
+    margin-left: 80px;
+    border-radius:120px;
+    border: double 10px black;
+    box-shadow: #7b7e81 10px 10px 10px;
+    color: white;
+}
+.carousel-item
+{
+    height:700px;
+    min-height: 300px;
+    background: no-repeat scroll center;
+
+}

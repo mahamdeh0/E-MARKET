@@ -1,0 +1,104 @@
+
+.carousel-item
+{
+  height:800px;
+  min-height: 300px;
+  background: no-repeat scroll center ;
+
+}
+.carousel-item::before
+{
+  content: "";
+  display: block;
+  position:absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: black;
+  opacity: 0.7;
+}
+.carousel-caption
+{
+  bottom: 180px;
+  margin: 250px auto;
+}
+.scrollspy-example
+{
+  display: flex;
+  justify-content: space-around;
+}
+.scrollspy-example
+{
+  margin-bottom: 20px;
+}
+.input-group
+{
+  max-width: 300PX;
+}
+.navbar-brand
+{
+  padding-right: 400px;
+}
+.items_header_text
+{
+  display: flex;
+  margin-top: 160px;
+  justify-content: center;
+}
+
+
+
+.outline
+{
+  outline: 1px solid black;
+}
+.cartHeader
+{
+  width: 200px;
+  height: fit-content;
+  display: flex;
+  justify-content: space-around;
+}
+.cartItem
+{
+  display: flex;
+  justify-content: space-around;
+  max-height: 100px;
+}
+.cartSceleton
+{
+  min-height: 500px;
+}
+.btn-trash
+{
+  height: fit-content;
+ margin-top: 10px;
+}
+.main_Container
+{
+ height: 650px;
+  width: 100%;
+  overflow: hidden;
+
+}
+.btn-info
+{
+  height: 70px;
+  border-radius: 0px;
+  width: 250px;
+  text-align: center;
+
+
+}
+a:link { text-decoration: none; color: white ;}
+
+
+a:visited { text-decoration: none; color: white ; }
+
+
+a:hover { text-decoration: none;  color: white ;}
+
+
+a:active { text-decoration: none;color: white ; }
+
